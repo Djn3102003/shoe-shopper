@@ -1,0 +1,78 @@
+.shoe-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shoe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.shoe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #f0f0f0;
+}
+
+.shoe-info {
+  padding: 16px;
+}
+
+.brand {
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.shoe-info h3 {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.category {
+  font-size: 12px;
+  background-color: #f0f0f0;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.shoe-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+.add-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #e63946;
+}
